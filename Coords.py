@@ -29,7 +29,7 @@ class Coords:
 
     def __str__(self):
         template = "{0:5}{1:8}{2:8}{3:6}{4:5}{5:5}"
-        output = template.format("no.","X","Y","type","R","Q")
+        output = template.format("no.", "X", "Y", "type", "R", "Q")
         output += "\n"
 
         for i, v in enumerate(self.__Alist):
